@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="container text-white w-full">
+      <div class="wraper flex justify-between items-center max-w-full h-[45px] bg-[#0000cd] px-4">
+        <div class="logo font-bold text-base first-letter:text-2xl first-letter:text-slate-900">Maghfur Hasani</div>
+        <div class="hamburger-menu lg:hidden">
+          <img src="../svg/menu.png" alt="hamburger_menu.img" class="h-10">
+        </div>
+        <ul class="nav-list flex lg:flex sm:hidden">
+          <li class="px-2 group">
+            <span><i class="bi bi-house-door bg-slate-900 px-2 py-1 mr-1 rounded-md group-hover:text-white transition ease-in-out"></i></span><a href="#">Home</a>
+          </li>
+          <li class="px-2 group">
+            <span><i class="bi bi-file-person-fill text-white mr-1 group-hover:text-black transition ease-out"></i></span><a href="#">About me</a>
+          </li>
+          <li class="px-2 group">
+            <span><i class="bi bi-clipboard2-data text-white mr-1 group-hover:text-black transition ease-in-out"></i></span><a href="#">Project</a>
+          </li>
+          <li class="px-2 group">
+            <span><i class="bi bi-person-lines-fill text-white mr-1 group-hover:text-black transition ease-in-out"></i></span><a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero start -->
+    <div class="background"></div>
+    <div class="mx-auto py-20 px-8 grid grid-cols-2 lg:max-w-[800px] sm:max-w-full">
+      <div class="img relative h-[300px] w-[300px] rounded-full overflow-hidden">
+        <div class="svg absolute -z-[1] h-[400px]">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill="#0000ff"
+              d="M46.7,-39.5C58,-23.1,62.9,-3.8,60.9,17.5C58.9,38.9,50.1,62.3,34.6,68.3C19.2,74.4,-2.9,63.2,-25.1,52.4C-47.2,41.6,-69.4,31.3,-77.5,12.8C-85.6,-5.7,-79.7,-32.2,-64.4,-49.5C-49.2,-66.8,-24.6,-74.7,-3.4,-72C17.7,-69.3,35.5,-55.8,46.7,-39.5Z"
+              transform="translate(100 100)"
+            />
+          </svg>
+        </div>
+        <img src="../svg/me.png" alt="busnis.img" class="" />
+      </div>
+      <div class="introduce inline-block py-[40%]">
+        <h2 class="bg-gradient-to-r from-[#0000ff] from-30% via-[#0000cd] via-20% to-[#000080] text-transparent bg-clip-text text-2xl font-bold">Hi everyone, i'am maghfur hasani</h2>
+        <h5 class="job bg-gradient-to-r from-[#0000ff] from-20% to-slate-200 text-transparent bg-clip-text text-lg tracking-wide"></h5>
+      </div>
+    </div>
+    <!-- hero end -->
+    <script src="dist/script.js"></script>
+  </body>
+</html>
