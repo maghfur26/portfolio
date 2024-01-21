@@ -8,20 +8,16 @@
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
-.hamburger {
-    color: white;
-}
-
 nav .wraper > * {
     font-family: 'Roboto', sans-serif;
 }
 
 .nav-list li {
-    @apply hover:bg-slate-100 hover:text-black rounded-lg transition ease-in-out duration-500 active:bg-slate-800 hover:delay-100 first-letter:text-black py-2;
+    @apply hover:bg-slate-100 hover:text-black rounded-lg transition ease-in-out duration-500 active:bg-slate-800 hover:delay-100 first-letter:text-black py-[5px];
 }
 
 .background {
-    @apply bg-slate-900 h-[500px] w-full -z-[1] absolute;
+    @apply bg-slate-900 h-[500px] w-full -z-[5] absolute;
     clip-path: polygon(0 0, 100% 0, 40% 40%, 0 100%);
 }
 
